@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/icons8-crown-60.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    adheeshetty
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+    name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/index.css" rel="stylesheet" />
+
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/demo/demo.css" rel="stylesheet" />
+
+</head>
+
+<body class="profile-page sidebar-collapse">
+  <!-- Contact -->
+  <div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+    style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+          <h4 class="modal-title" id="myModalLabel">Contact me
+          </h4>
+        </div>
+        <div class="modal-body">
+          <b><i class="fas fa-envelope"></i> Email me at </b> <a
+            href="mailto:adheepshetty@gmail.com?subject=Subject">adheepshetty@gmail.com</a><br>
+          <b><i class="fas fa-phone"></i> Phone Number - </b><a href="tel:+15622768710">+1 (562)350-6931</a><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
+          <!--                <button type="button" class="btn btn-info btn-simple">Save</button>-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+    <div class="container">
+      <div class="navbar-translate">
+        <div class="navbar-brand" data-placement="bottom" target="_blank">
+          <img style="width :60px; height :55px" src='assets/img/icons8-crown-60.png'>
+        </div>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse justify-content-end has-image collapse show" id="navigation">
+        <img class="logo d-lg-none d-xl-none " style="margin-left:85px" src='assets/img/icons8-crown-90.png'>
+        <div class="d-lg-none d-xl-none" style="margin-left: 38px; font-weight: 800; font-size: 30px">Adheep Shetty
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom"
+              href="https://twitter.com/AdheShetty?lang=en&lang=en" target="_blank" data-original-title="Twitter Handle">
+              <i class="fa fa-twitter"></i>
+              <p class="d-lg-none d-xl-none">Twitter</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" data-placement="bottom" href="https://www.facebook.com/adheep.shetty"
+              target="_blank" data-original-title="Send request">
+              <i class="fa fa-facebook-square"></i>
+              <p class="d-lg-none d-xl-none">Facebook</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" data-placement="bottom"
+              href="https://www.instagram.com/adheepshetty/?hl=en" target="_blank" data-original-title="Follow me">
+              <i class="fab fa-instagram"></i>
+              <p class="d-lg-none d-xl-none">Instagram</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" data-placement="bottom"
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank" data-original-title="Connect">
+              <i class="fa fa-linkedin"></i>
+              <p class="d-lg-none d-xl-none">LinkedIn</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" data-placement="bottom" data-toggle="modal" data-target="#Contact"
+              target="_blank" data-original-title="Contact me">
+              <i class="far fa-user-circle"></i>
+              <p class="d-lg-none d-xl-none">Contact Me</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <div class="wrapper">
+    <div class="page-header clear-filter" filter-color="yellow">
+
+      <div class="page-header-image" data-parallax="true" style="background-image:url('assets/img/csulb.jpg');">
+      </div>
+      <div class="container">
+        <div class="photo-container">
+          <img src="assets/img/LinkedIn click.png" alt="">
+        </div>
+        <h3 class="title">Adheep Shetty</h3>
+        <p class="category typewrite" data-period="1000"
+          data-type='[ "HI, I AM ADHEEP", "SOFTWARE ENGINEER", "DATA MONGER", "PROGRAMMER" , "AND LOVE HOT CHOCOLATE :)" ]'>
+          <span class="wrap"></span>
+        </p>
+        <div class="content">
+          <a href="assets/rsrcs/Resume.pdf" class="btn btn-primary btn-round btn-lg" download="Resume">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="button-container">
+          <a href="#myprofile" class="btn btn-primary btn-round btn-lg" onclick="myprofile()">My Profile</a>
+          <a href="https://twitter.com/AdheShetty?lang=en&lang=en" class="btn btn-default btn-round btn-lg btn-icon"
+            rel="tooltip" title="Follow me on Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/adheepshetty/?hl=en" class="btn btn-default btn-round btn-lg btn-icon"
+            rel="tooltip" title="Follow me on Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div id="myprofile" style="text-align: center;" class="active" aria-expanded="true">
+          <br>
+          <br>
+        </div>
+
+        <!-- About me -->
+        <h3 class="title">About me</h3>
+        <div class="myprofile-photo-container">
+          <img src="assets/img/LinkedIn click.png" alt="">
+        </div>
+        <h5 class="description">I am pursuing master’s in computer science at California State University,
+          Long Beach. I am actively looking for a summer internship that would help to enhance my skills.
+          <br><br>
+          With my knowledge about various ML models, software engineering skills and proficiency in languages
+          like python, java as well as my web development skills I am sure I would be an asset for any
+          company I join.
+          <br><br>
+          I want to be involved in projects that I can be proud of, join an amazing team and advance my career.
+          Take some time to look at my work, credentials and if you're interested please feel free to contact me.</h5>
+
+        <div class="col-md-12 ml-auto mr-auto">
+          <div class="nav-align-center">
+            <ul class="nav nav-pills nav-pills-primary" role="tablist">
+
+              <li style="padding-right:20px" class="nav-item">
+                <a id="Feducation" rel="tooltip" data-placement="bottom" data-original-title="Education"
+                  class="btn btn-warning btn-round btn-lg btn-icon btn-primary" data-toggle="tab" href="#education"
+                  role="tablist" onclick="education()" aria-expanded="false">
+                  <i class="fas fa-university"></i>
+                </a>
+              </li>
+
+              <li style="padding-right:20px" class="nav-item">
+                <a id="Fproject" rel="tooltip" data-placement="bottom" data-original-title="Projects"
+                  class="btn btn-warning btn-round btn-lg btn-icon btn-primary" data-toggle="tab" href="#project"
+                  role="tablist" onclick="project()" aria-expanded="false">
+                  <i class="fas fa-rocket"></i>
+                </a>
+              </li>
+
+              <li style="padding-right:20px" class="nav-item">
+                <a id="Fwork" rel="tooltip" data-placement="bottom" data-original-title="Work Experience"
+                  class="btn btn-warning btn-round btn-lg btn-icon btn-primary" data-toggle="tab" href="#work"
+                  role="tablist" onclick="work()" aria-expanded="false">
+                  <i class="fas fa-briefcase"></i>
+                </a>
+              </li>
+
+              <li style="padding-right:20px" class="nav-item">
+                <a id="FCertificate" rel="tooltip" data-placement="bottom" data-original-title="Certifications"
+                  class="btn btn-warning btn-round btn-lg btn-icon btn-primary" data-toggle="tab" href="#certificate"
+                  role="tablist" onclick="certificate()" aria-expanded="false">
+                  <i class="fas fa-scroll"></i>
+                </a>
+              </li>
+
+              <li style="padding-right:20px" class="nav-item">
+                <a id="Fskill" rel="tooltip" data-placement="bottom" data-original-title="Skills"
+                  class="btn btn-warning btn-round btn-lg btn-icon btn-primary" data-toggle="tab" href="#skill"
+                  role="tablist" onclick="skill()" aria-expanded="false">
+                  <i class="fas fa-tools"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="Fskill" rel="tooltip" data-placement="bottom" data-original-title="LinkedIn Profile"
+                  class="btn btn-warning btn-round btn-lg btn-icon btn-primary" data-toggle="tab" href="#skill"
+                  role="tablist" onclick="linkedin()" aria-expanded="false">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+        <!--      Education-->
+        <div id="education" style="text-align: center;" class="active" aria-expanded="true">
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+
+        <div role="tabpanel">
+          <div class="col-md-10 ml-auto mr-auto">
+            <div class="title" style="margin-top: 0px;font-size: 23px;">EDUCATION</div>
+            <div class="dropdown-divider" style="border-top: 2px solid rgb(254, 178, 56)"></div>
+
+            <div class="row collections" style="margin-top: 20px;margin-bottom: 40px;">
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;">
+                  <img style="width: 200px;" src="assets/img/csulb-logo.png" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>2018 - On going</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5>California State University, Long Beach</h5>
+                  <p>
+                    Masters of Science in Computer Science.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 20px;margin-bottom: 40px;">
+              <!-- /** flex-flow: wrap-reverse;**/-->
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;">
+                  <br>
+
+                  <img style="width: 150px;" src="assets/img/xie-logo.jpg" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>2014 - 2018</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5>Xavier Institute Of Engineering.</h5>
+                  <h6>University of Mumbai.</h6>
+                  <p>
+                    <br>
+                    Bachelors of Engineering.
+                    <br>CGPA : 8.03 / 10.<br>
+                    <a href="assets/rsrcs/BE Transcript.pdf" class="btn btn-sm btn-primary btn-round "
+                      download="Bachelor's Transcript">Bachelor's
+                      Transcript
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 20px;margin-bottom: 40px;">
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;">
+                  <img style="width:150 px ;height:150px " src="assets/img/newsc1.jpg" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>2014 - 2012</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5>Sathaye College</h5>
+                  <h6>HSC Board.</h6>
+                  <p>
+                    <br>Percentage: 77.69.<br>
+                    <a href="assets/rsrcs/HSC_Marksheet.pdf" class="btn btn-sm btn-primary btn-round "
+                      download="HSC Marksheet">12th
+                      Grade Marksheet
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 20px;margin-bottom: 40px;">
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;">
+                  <br>
+                  <img style="width:150 px ;height:100px" src="assets/img/ptv-logo.jpg" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>2002 - 2012</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5>Parle Tilak Vidyalaya</h5>
+                  <h6>SSC Board.</h6>
+                  <p>
+                    <br>Percentage: 89.85.<br>
+                    <a href="assets/rsrcs/SSC_Marksheet.pdf" class="btn btn-sm btn-primary btn-round "
+                      download="SSC Marksheet">10th
+                      Grade Marksheet
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div id="project" style="text-align: center;" class="active" aria-expanded="true">
+              <br>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+
+
+        <!--         Tab -3   Projects-->
+
+
+        <div role="tabpanel">
+          <div class="col-md-10 ml-auto mr-auto">
+            <div class="title" style="margin-top: 0px;font-size: 23px;">PROJECTS</div>
+            <div class="dropdown-divider" style="border-top: 2px solid rgb(254, 178, 56)"></div>
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;">
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 150px;margin-top: 40px;">
+                  <img style="width: 150px;padding :10px" src="assets/img/CSULB-POLICE.png" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Sept 2018 - Nov 2018.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Csulb Police Assistant</h5>
+                  <ul>
+                    <li>Developed an application that can query the CSULB Police department spatial database as
+                      first-semester Database Architecture project.</li>
+                    <li>Used Java, JDBC, and MySQL for querying the spatial data.</li>
+                    <li>Performed data ingestion using JDBC and wrote parameterized functions to easily find the
+                      incidents that happened in a zone.</li>
+                  </ul>
+                  <p><a href="https://github.com/adheepshetty/CSULB-Police-Assistant">More Details..</a></p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;flex-flow: wrap-reverse;">
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Aug 2018 - Sept 2018.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Word Press Backup (Mini Project).</h5>
+                  <ul>
+                    <li>Took backup of WordPress Website using metadata by writing Stored Procedures in MySQL.</li>
+                    <li>Updated the admin’s password using just the metadata and fired the Stored Procedures using
+                      Shell Script.</li>
+                  </ul>
+                  <p>
+                    <p><a href="https://github.com/adheepshetty/WordPress-Backup-Mini-Project-">More Details..</a></p>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;margin-top: 10px;">
+                  <img style="width: 200px;" src="assets/img/wordpress.png" alt="" class="rounded">
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;">
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 150px;margin-top: 40px;">
+                  <img style="width: 150px;" src="assets/img/2048.png" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Jan 2017 - Dec 2018.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Puzzle-Solver-2048</h5>
+                  <ul>
+                    <li>Successfully developed 2048 puzzle solver as undergraduate’s final year project.</li>
+                    <li>2048 puzzle is played in a 4x4 grid, with numbered tiles that slide in all four directions
+                      where two tiles with the same number collide, then they merge into a single tile with value twice
+                      as that of individual tiles.</li>
+                    <li>Used JavaScript, HTML5, CSS3 for making changes in the original 2048 puzzle’s code.</li>
+                  </ul>
+                  <p><a href="https://github.com/adheepshetty/Puzzle-Solver-2048">More Details..</a></p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;flex-flow: wrap-reverse;">
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Feb 2018 - Apr 2018.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Resume Tracking System.</h5>
+                  <ul>
+                    <li>The main idea of this project is to keep track large number of resumes, here “large” means not
+                      in hundreds or thousands but in millions of resumes.</li>
+                    <li>To handle such a large amount of data we will be using new emerging technologies like Mongo and
+                      Kafka which will provide an effective and faster way to store and stream data.</li>
+                    <li>The final result of the project, we have provided best data visualization dashboard to track and
+                      easy search control over information.</li>
+                  </ul>
+                  <p>
+                    <p><a href="https://github.com/adheepshetty/Resume-Tracking-System">More Details..</a></p>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;margin-top: 10px;">
+                  <img style="width: 200px;" src="assets/img/resume_tracking_system.jpg" alt="" class="rounded">
+                </div>
+              </div>
+            </div>
+
+            <div id="work" style="text-align: center;" class="active" aria-expanded="true">
+              <br>
+              <br>
+              <br>
+              <br>
+            </div>
+            <!--       Work Experience-->
+
+            <div class="title" style="margin-top: 0px; font-size: 23px;">WORK EXPERIENCE</div>
+            <div class="dropdown-divider" style="border-top: 2px solid rgb(254, 178, 56)"></div>
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px; flex-flow: wrap-reverse;">
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Intructional Student Assistant, Long Beach, California.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Aug 2018 - Dec 2018</h5>
+                  <ul>
+                    <li>Maintained attendance sheets and exam papers marks in excel sheets for the professor. </li>
+                    <li>Used to web scrape data from research site related to professor’s research topic, completing
+                      his research in a short period. </li>
+                    <li>Carried out workshops for an academic topic for the students. </li>
+                    <li>Conducted doubts clearing sessions for the students. </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto"
+                  style="width: 150px;margin-top: 40px;padding-top:0.5em;padding-left: 2em;padding:10px">
+                  <img style="width: 150px;" src="assets/img/cba-csulb.jpeg" alt="" class="rounded">
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;">
+              <div class="col-md-4" style="margin-top: 170px;">
+                <div class="ml-auto mr-auto" style="width: 200px;">
+                  <img style="width: 200px;" src="assets/img/csulb-logo.png" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Oracle SQL Programmer</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Feb 2019 - Still Working.</h5>
+                  <h6>Adhoc-Data Reports/Dashboards</h6>
+                  <ul>
+                    <li>Translate Data into plain sentences and provide solutions to meet Data needs of the various
+                      departments at CSULB.</li>
+                    <li>Use reporting services to identify actionable insights in conjunction with Dashboard Reports.
+                    </li>
+                  </ul>
+                  <h6>Dashboard Developer & Data Visualization </h6>
+                  <ul>
+                    <li>Designed dashboard reports using Tableau 10.</li>
+                    <li>Performed Data visualization for different datasets in from the CSU‘s Enrollment Data Warehouse.
+                    </li>
+                    <li>Extract and communicate insights to designated Stakeholders /Authorities.</li>
+                  </ul>
+                  <h6>Dataset Extraction, Cleaning & Validation</h6>
+                  <ul>
+                    <li>Statistical modeling and Data preprocessing GB's of Student Data using python NumPy & Pandas.
+                    </li>
+                    <li>Data Transformation, Creating Schedulers to update Data of DataWarehouse.</li>
+                    <li>Ensure datasets for dashboards are consistent by performing rigorous validations using
+                      historical data.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div id="certificate" style="text-align: center;" class="active" aria-expanded="true">
+              <br>
+              <br>
+              <br>
+
+            </div>
+
+
+            <!--            Certificates-->
+
+
+            <div class="title" style="margin-top: 0px; font-size: 20px;">Certifications</div>
+            <div class="dropdown-divider" style="border-top: 2px solid rgb(254, 178, 56)"></div>
+            <!-- https://github.com/adheepshetty/Python-for-Data-Science-Certification-Training -->
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;">
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 150px;margin-top: 50px;">
+                  <img style="width: 150px;padding :10px" src="assets/img/intellipaatlogo.jpeg" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Sept 2018 - No Expiration Date.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Python for Data Science</h5>
+                  <ul>
+                    <li>Python Basics.</li>
+                    <li>Numpy module to compute mathematical functions.</li>
+                    <li>Pandas module for data manipulation and analysis.</li>
+                    <li>Scipy module for scientific computation.</li>
+                    <li>Matplotlib to plot the data.</li>
+                    <li>Various ML Algorithms.</li>
+                  </ul>
+                  <p><a href="https://github.com/adheepshetty/Python-for-Data-Science-Certification-Training">More
+                      Details..</a></p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;flex-flow: wrap-reverse;">
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Dec 2018 - No Expiration Date.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">The Ultimate-Hands-on-Hadoop - Tame your Big Data.</h5>
+                  <ul>
+                    <li>Installed and worked with a real Hadoop installation with Hortonworks and the Ambari UI</li>
+                    <li>Wrote programs to analyze data on Hadoop with Pig and Spark.</li>
+                    <li>Stored and fired queries on data with Sqoop, Hive, MySQL, HBase, Cassandra, MongoDB, Drill,
+                      Phoenix, and Presto.</li>
+                    <li>Learned how the cluster is managed with YARN, Mesos, Zookeeper, Oozie, Zeppelin, and Hue</li>
+                    <li>Handled streaming data in real time with Kafka, Flume, Spark Streaming, Flink, and Storm</li>
+                  </ul>
+                  <p>
+                    <p><a href="https://github.com/adheepshetty/Kafka-Beginners-Course">More Details..</a></p>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;margin-top: 30px;">
+                  <img style="width: 150px;height:150px" src="../assets/img/udemy.png" alt="" class="rounded">
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;">
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 150px;margin-top: 100px;">
+                  <img style="width: 150px;padding :10px" src="assets/img/neo4j.jpg" alt="" class="rounded">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Mar 2019 - No Expiration Date.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Introduction to Neo4j</h5>
+                  <ul>
+                    <li>Introduction to Graph Databases.</li>
+                    <li>Introduction to Neo4j.</li>
+                    <li>Setting up your Development Environment.</li>
+                    <li>Introduction to Cypher.</li>
+                    <li>Getting More out of Queries.</li>
+                    <li>Creating Nodes and Relationships.</li>
+                    <li>Getting More out of Neo4j.</li>
+                  </ul>
+                  <a href="assets/rsrcs/Intro_to_Neo4j.pdf" download="Neo4j_Certificate">Certificate..</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px;flex-flow: wrap-reverse;">
+              <div class="col-md-8">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: left;">
+                  <h6>Mar 2019 - No Expiration Date.</h6>
+                  <div class="dropdown-divider" style="border-top: 1px solid #ccc"></div>
+                  <h5 style="font-size: 15px;font-weight: 700;">Apache Kafka Series - Learn Apache Kafka for Beginners
+                    v2.</h5>
+                  <ul>
+                    <li>The Apache Kafka Ecosystem Architecture.</li>
+                    <li>The Kafka Core Concepts.</li>
+                    <li>Learned and Practiced using the Kafka Command Line Interface (CLI).</li>
+                    <li>Coded for Producer and Consumers using the Java API.</li>
+                    <li>Overview of Advanced APIs (Kafka Connect, Kafka Streams).</li>
+                  </ul>
+                  <p>
+                    <p><a href="https://github.com/adheepshetty/Kafka-Beginners-Course">More Details..</a></p>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="ml-auto mr-auto" style="width: 200px;margin-top: 30px;">
+                  <img style="width: 150px;height:150px" src="../assets/img/udemy.png" alt="" class="rounded">
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div id="skill" style="text-align: center;" class="active" aria-expanded="true">
+              <br>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+
+
+        <!--                   Skills-->
+
+
+        <div role="tabpanel">
+          <div class="col-md-10 ml-auto mr-auto">
+            <div class="title" style="margin-top: 0px;font-size: 20px;">SKILLS</div>
+            <div class="dropdown-divider" style="border-top: 2px solid rgb(254, 178, 56)"></div>
+            <div class="row collections" style="margin-top: 40px;margin-bottom: 40px; flex-flow: wrap-reverse;">
+              <div class="col-md-12">
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: center;">
+                  <h6>Programming Languages.</h6>
+                  <br>
+                  <img rel="tooltip" data-original-title="Java" data-placement="bottom" style="margin-right : 10px"
+                    src="assets/img/Java.png">
+                  <img rel="tooltip" data-original-title="Python" data-placement="bottom"
+                    style="margin-right : 10px;margin-left: 10px" src="assets/img/Python.png">
+                  <img rel="tooltip" data-original-title="C" data-placement="bottom"
+                    style="margin-right : 10px;margin-left: 10px" src="assets/img/C.png">
+                  <img rel="tooltip" data-original-title="Javascript" data-placement="bottom"
+                    style="margin-right : 10px;margin-left: 10px" src="assets/img/Javascript.png">
+                  <img rel="tooltip" data-original-title="SQL" data-placement="bottom"
+                    style="margin-right : 10px;margin-left: 10px" src="assets/img/Sql.png">
+                </div>
+                <div class="description" style="color: black;font-weight: 400;padding: 10px 20px;text-align: center;">
+                  <h6>Tools.</h6>
+                  <br>
+                  <div class="row collections">
+                    <div class="col-md-4">
+                      <div class="ml-auto mr-auto">
+                        <img rel="tooltip" style="text-align : right;padding-right: 41px" data-original-title="Eclipse"
+                          data-placement="bottom" src="assets/img/eclipseide.png">
+                        <img rel="tooltip" style="text-align : left;padding-left: 41px" data-original-title="MySQL"
+                          data-placement="bottom" src="assets/img/Mysql.png">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="ml-auto mr-auto">
+                        <img rel="tooltip" data-original-title="Anaconda" data-placement="bottom"
+                          style="margin-right : 10px;margin-left: 10px" src="assets/img/anacondaide.jpeg">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="ml-auto mr-auto">
+                        <img rel="tooltip" style="text-align : right;padding-right: 41px" data-original-title="Mongodb"
+                          data-placement="bottom" src="assets/img/Mongodb.png">
+                        <img rel="tooltip" style="text-align : left;padding-left: 41px" data-original-title="Cassandra"
+                          data-placement="bottom" src="assets/img/Cassandra.png">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row collections">
+                    <div class="col-md-4">
+                      <div class="description">
+                        <img rel="tooltip" style="text-align: center" data-original-title="Tableau"
+                          data-placement="bottom" style="margin-right : 10px;margin-left: 10px"
+                          src="assets/img/tableau.png">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="ml-auto mr-auto">
+                        <img rel="tooltip" style="text-align : right;padding-right: 41px" data-original-title="Jupyter"
+                          data-placement="bottom" src="assets/img/jupyteride.png">
+                        <img rel="tooltip" style="text-align : left;padding-left: 41px" data-original-title="Spyder"
+                          data-placement="bottom" src="assets/img/spyderide.jpeg">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="ml-auto mr-auto">
+                        <img rel="tooltip" style="text-align: left" data-original-title="Hadoop" data-placement="bottom"
+                          style="margin-right : 10px;margin-left: 10px" src="assets/img/Hadoop.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="linkedin" style="text-align: center;" class="active" aria-expanded="true">
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+
+          <!-- LINKEDIN PROFILE -->
+
+          <div class="col-md-10 ml-auto mr-auto">
+            <div class="title" style="margin-top: 0px;font-size: 20px;">LINKEDIN PROFILE</div>
+            <div class="dropdown-divider" style="border-top: 2px solid rgb(254, 178, 56)"></div>
+            <div style="margin: 40px auto; position: relative;width: 330px;height: 242.33px;border: 2px solid;">
+              <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US"
+                data-type="horizontal" data-theme="light" data-vanity="adheep-shetty"><a class="LI-simple-link"
+                  href='https://www.linkedin.com/in/adheep-shetty?trk=profile-badge'>Adheep Shetty</a></div>
+            </div>
+          </div>
+
+
+
+
+
+
+          <!-- Footer -->
+          <footer class="footer footer-default">
+            <div class="container">
+              <nav>
+                <ul>
+                  <li>
+                    <a data-toggle="modal" data-target="#Contact">
+                      Contact me
+                    </a>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div style="text-align: right">
+                <img style="width:30px; height: 30px" src='assets/img/icons8-crown-60.png'>
+                <span style="padding: 5px">Adheep Shetty</span>
+              </div>
+          </footer>
+        </div>
+        <!--   Core JS Files   -->
+        <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+        <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+        <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+        <script src="assets/js/plugins/bootstrap-switch.js"></script>
+        <!-- fonts -->
+        <script src="https://use.fontawesome.com/fc426df9af.js"></script>
+        <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+        <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+        <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+        <script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+        <!--  Google Maps Plugin    -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+        <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+        <script src="assets/js/index.js?v=1.2.0" type="text/javascript"></script>
+        <!-- linkedin script -->
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+</body>
+
+</html>
